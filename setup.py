@@ -85,13 +85,14 @@ setup(
             "video-crop=video_cli.cli.crop:main",
             "video-retime=video_cli.cli.retime:main",
             "video-togif=video_cli.cli.togif:main",
-            "video-trim=video_cli.cli.trim:main",
+            "video-trim=video_cli.cli.trim:main", # !
             "video-tile=video_cli.cli.tile:main",
             "video-toimg=video_cli.cli.toimg:main",
             "video-tovideo=video_cli.cli.tovideo:main",
             "video-resize=video_cli.cli.resize:main",
             "video-fromimg=video_cli.cli.fromimg:main",
             "video-metadata=video_cli.cli.metadata:main",
+            "video-remove=video_cli.cli.remove:main" # !
         ]
     },
 )
