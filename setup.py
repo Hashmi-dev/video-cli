@@ -92,9 +92,14 @@ setup(
             "video-resize=video_cli.cli.resize:main",
             "video-fromimg=video_cli.cli.fromimg:main",
             "video-metadata=video_cli.cli.metadata:main",
+<<<<<<< HEAD
             "video-remove=video_cli.cli.remove:main", # !
             "video-text=video_cli.cli.text:main", # !
             "video-convert=video_cli.cli.convert:main", # !
+=======
+            "video-mute=video_cli.cli.mute:main",
+            "video-remove=video_cli.cli.remove:main" # !
+>>>>>>> 191b2ccc451caaccbc9ce3284e07b8d8f89dd678
         ]
     },
 )
